@@ -28,7 +28,7 @@ import sys
 import requests
 
 IV_DAYS = int(os.environ.get("IV_DAYS", "12"))
-MD_TOKEN = os.environ.get("MARKETDATA_TOKEN", "")
+MD_TOKEN = os.environ.get("bVR2WnUxWkk3THNTZ28tS0l4aFRGYy1qcTAxZmRhV0VwZU9aeHZMVXBacz0", "")
 AV_KEY = os.environ.get("ALPHAVANTAGE_KEY", "")
 UNDERLYINGS = ["GLD", "GLDM", "IBIT"]
 
